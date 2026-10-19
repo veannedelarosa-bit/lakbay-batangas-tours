@@ -1,21 +1,34 @@
 Skip to main content 
 </DOCTYPE html>>
-
+<section>
 <h1>Lakbay Batangas Tours</h1>
  <nav aria-label="Main Navigation">
-     <ul>
-<h1>Discover Batangas through sample tour experiences.</h1>
-<li>><a>Home <li>><a>| <li>><a>About <li>><a>| <li>><a>Tour Packages <li>><a>| <li>><a>Why Choose Us <li>><a>| <li>><a>Contact<li>><a>
-Welcome to Lakbay Batangas Tours
+     <ul><h1>Discover Batangas through sample tour experiences.</h1>
+    <li><a><href>Home </li></a></href>
+    <li><a><href>About </li></a></href>
+    <li><a><href>Tour Packages </li></a></href>
+    <li><a><href>Why Choose Us </li></a></href>
+    <li><a><href>Contact</li></a></href>
+     
+   </ul>
+ </nav>
+  </header>
+</section>
+
+<h1>Welcome to Lakbay Batangas Tours</h1>
 
 <p>Review our sample tour packages, compare the experience, and send an inquiry.</p>
 
-<h1>View the three tour packages</h>
-About
+<h1>View the three tour packages</h1>
+
+<h2> About </h2>
+
+<section>
 
 We provide information to help visitors explore the approved tour options.
 
 Our company has operated for 30 years and won every regional tourism award.
+</sections>
 Tour Packages
 
 These are sample package descriptions for classroom practice; details require approval.
@@ -42,4 +55,4 @@ Only client-confirmed company claims should be published in a real website.
 
 Training example only. No real tours, prices, booking or payments are offered.
 
-Back to Home
+<li><a>Back to Home</li></a>
