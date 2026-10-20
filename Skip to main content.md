@@ -16,12 +16,18 @@ Skip to main content
 </section>
 </header>
 
-  <main id="main-content">
-        <section id="start">
-            <h2>Welcome to Lakbay Batangas Tours</h2>
-            <p>Review our sample tour packages, compare the experience, and send an inquiry.</p>
-            <p><a href="#package">View the three tour packages</a></p>
-        </section>
+<section id="about">
+  <h2>About Us</h2>
+  <h3>About Our Featured Tours</h3>
+  <figure>
+    <img src="/home/etsi/lakbay-batangas-tour/asset/ alt="Taal Lake at Sunset" width="300" height="285">
+    <figcaption>Taal Lake, one of the beauties you can discover in Batangas.</figcaption>
+  </figure>
+  <p>
+    Photo by: Talynhaga <a href="https://commons.wikimedia.org/wiki/File:Taal_Lake.jpg">Image Source</a>
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+  </p>
+</section>
 
   <main id="main-content">
         <section id="start">
