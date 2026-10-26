@@ -1,14 +1,27 @@
 header {
 
-background-color: #086168;
-color: #060707;
+background-color: #1b1d1d;
+color: #abb4b4;
 padding: 20px;
    
 }
-
-section {
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid #1a0d0d;
-  
+nav a {
+    color: #abb4b4;
+    text-decoration: none;
+    margin-right: 15px;
 }
+h3 {
+   color: #1f6969;
+   
+}
+h2 {
+    color: #1f6969;
+}
+h5 {
+    background-color: #8ac2c2;
+    color: #206969;
+text-align: center;
+    padding: 10px;
+}
+
+
