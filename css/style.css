@@ -1,27 +1,45 @@
 header {
 
-background-color: #1b1d1d;
-color: #abb4b4;
+background-color: #358d8d;
+color: #0d0f0f;
 padding: 20px;
-   
+font-size: 18px
 }
 nav a {
-    color: #abb4b4;
+    color: #e9e1e1;
     text-decoration: none;
     margin-right: 15px;
 }
 h3 {
-   color: #1f6969;
+   color: #0e0f0f;
    
 }
 h2 {
     color: #1f6969;
-}
+} 
 h5 {
     background-color: #8ac2c2;
     color: #206969;
-text-align: center;
+
     padding: 10px;
+
+
+}
+section{
+color:#c28330
+}
+.featured-tour {
+  background-color: #e7f4ef;
 }
 
+.featured-tour {
+  background-color: #ffffcf;
+}
 
+#packages {
+  background-color: palegoldenrod;
+}
+
+#about p {
+  color: #ceaa49;
+}
