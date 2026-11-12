@@ -301,5 +301,102 @@ footer {
 nav{
   position: sticky;
   top: 0px;
-z-index: 1000;
+  z-index: 1000;
+}
+/* Styling para sa About Section */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Nilagyan ko ng center para magandang tignan sa mobile at desktop */
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Responsiveness para sa Figure at Image */
+#about figure {
+    margin: 0;
+    padding: 0;
+}
+
+#about figure img {
+    width: 100%;       /* Ginagawa nitong sakupin ang buong lapad ng mobile screen */
+    max-width: 500px;  /* Limitasyon para hindi sumobra laki sa desktop (pwede mong baguhin) */
+    height: auto;      /* Pinapanatili ang tamang proportion para hindi ma-distort ang image */
+    display: block;
+    margin: 0 auto 10px auto; /* Centered ang image at may konting spacing sa baba */
+    border-radius: 8px; /* Dinagdagan ko ng konting rounded corners para mas modern tingnan */
+}
+
+#about figcaption {
+    font-size: 0.9rem;
+    color: #242222;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.photo-credit {
+    font-size: 0.8rem;
+}
+.tour-form {
+    width: 100%;
+    max-width: 500px; /* Lapad sa desktop */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.tour-form fieldset,
+.tour-form select,
+.tour-form textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* Importante para hindi lumampas ang border at padding */
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.tour-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Para magkatabi pa rin ang radio button at label */
+.radio-group {
+    margin-bottom: 8px;
+}
+
+.radio-group input[type="radio"],
+.radio-group label {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+/* Mobile View (Screens na mas maliit sa 600px) */
+@media only screen and (max-width: 600px) {
+    .tour-form {
+        padding: 10px;
+    }
+
+    .tour-form fieldset,
+    .tour-form select,
+    .tour-form textarea {
+        font-size: 16px; /* Iwas auto-zoom sa iPhone */
+        padding: 6px;    /* Mas compact na spacing */
+    }
+
+    .tour-form textarea {
+        height: 90px;    /* Mas maliit na box sa mobile */
+    }
 }
